@@ -16,9 +16,6 @@ import java.util.List;
 @Path("secured")
 public class SecuredResource {
 
-    @Inject
-    UserFacade userFacade;
-
     @GET
     @Path("/hi-with-token")
     @Produces(MediaType.TEXT_PLAIN)
